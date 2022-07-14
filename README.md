@@ -35,14 +35,14 @@ Here I'll run through the process of embedding an image on a website.
 
 __Your image is now hot linked!__
 
-![Jimi Test](https://github.com/8rents/_/blob/images/jimi.png)
+![Jimi Test](https://raw.githubusercontent.com/8rents/_/images/jimi.png)
 
 ## Making a snippet
 
 You can make a snippet or memorize the URL of the repo:
 
 ```bash
-https://github.com/8rents/_/blob/
+https://raw.githubusercontent.com/8rents/_/
 ```
 
 if you upload an image you just need to add the branch and the image name to the end:

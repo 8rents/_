@@ -1,8 +1,10 @@
-# Media Store/ Link
+
+# _/ Github File Host for hotlinking on the web
+ 
 > #### *Repository used to host and hot link files different places on the web*
 
 Hopefully this isn't breaking GitHub's TOS. If anything, [they've sort of addressed it and left it ambiguous](https://github.community/t/uploading-an-image-to-a-github-repo-to-hotlink-from-a-site/1889). Let's see how this plays out and if the repository gets taken down.
-
+>ex a sax 
 Honestly, if this works out, GitHub would be the best file hosting site by a long shot since there's so many ways to organize your media and it's not limited to one type.
 
 ## How I'm going to organize this repository
@@ -19,8 +21,7 @@ The **default branch** is **`about`** and will only host this **`README`** file 
 
 ## File Name Formatting
 
-- All files will be lowercase, numbers or hyphens
-- 
+All files will be lowercase, numbers or hyphens
 
 ## Example: Hot Linking an Image
 
@@ -36,6 +37,8 @@ Here I'll run through the process of embedding an image on a website.
 __Your image is now hot linked!__
 
 ![Jimi Test](https://raw.githubusercontent.com/8rents/_/images/jimi.png)
+
+
 
 ## Making a snippet
 
@@ -57,4 +60,23 @@ The steps become simplified:
 2. Add, commit & push the file
 3. Paste the first part of the URL and edit the branch & image name
 
+## File Guidelines 
 
+1. File names must consist of lowercase letters, numbers & hyphens only
+2. Appropriate branch for the type of media must be used
+3. Use only open formats whenever possible avoid proprietary formats like Google's webm
+
+
+### Image formats
+
+Prefer image formats in the following order:
+
+**For photographic style images** 
+
+1. Png
+2. peg 
+
+**For limited color / drawing style images (ex. Logos)** 
+
+1. Svg
+2. Gif

@@ -15,7 +15,22 @@ I've created a branch for each type of media.:
 - `video`
 - `mixed`
 
+
 The **default branch** is **`about`** and will only host this **`README`** file and. This will keep the other branches clear. Each branch will be it's own line and never be merged. Pretty neat huh? `Mixed` will be used for PDFs or any mixed media files.
+
+
+Prototype for new branch naming conventions:
+
+- `-` __`[Default]`__ - (was about)
+- `i`  - (was images)
+- `a`  - (was audio)
+- `v`  - (was video)
+- `m`  - (was mixed)
+
+This will shorten links to:
+
+1. `https://raw.githubusercontent.com/8rents/_/-/`
+2. `https://raw.githubusercontent.com/8rents/_/i/jimi.png`
 
 ## File Name Formatting
 

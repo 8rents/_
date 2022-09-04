@@ -1,11 +1,9 @@
 
-# _/ Github File Host for hotlinking on the web
- 
-> #### *Repository used to host and hot link files different places on the web*
+
+# _
+## ![I got my Jimi Hat on](https://raw.githubusercontent.com/8rents/_/images/jimi.png)  Using Github as a File Host for hotlinking all sorts of shit on the web 
 
 Hopefully this isn't breaking GitHub's TOS. If anything, [they've sort of addressed it and left it ambiguous](https://github.community/t/uploading-an-image-to-a-github-repo-to-hotlink-from-a-site/1889). Let's see how this plays out and if the repository gets taken down.
->ex a sax 
-Honestly, if this works out, GitHub would be the best file hosting site by a long shot since there's so many ways to organize your media and it's not limited to one type.
 
 ## How I'm going to organize this repository
 
@@ -38,23 +36,28 @@ __Your image is now hot linked!__
 
 ![Jimi Test](https://raw.githubusercontent.com/8rents/_/images/jimi.png)
 
+Note the above link is:
 
+```txt
+https://raw.githubusercontent.com/8rents/_/images/jimi.png
+```
+
+Which is easy to remember:
+
+```txt
+https://raw.githubusercontent.com/8rents/_/branch/filename
+```
+
+All you have to do is memorize: `https://raw.githubusercontent.com/`
+
+After that add: `Your user name`/`repository name`/`branch`/`file name`
+
+
+like so: `8rents/_/images/jimi.png`
 
 ## Making a snippet
 
 You can make a snippet or memorize the URL of the repo:
-
-```bash
-https://raw.githubusercontent.com/8rents/_/
-```
-
-if you upload an image you just need to add the branch and the image name to the end:
-
-```bash
-images/jimi.png
-```
-
-The steps become simplified:
 
 1. In the client, switch to the proper branch
 2. Add, commit & push the file
@@ -66,6 +69,7 @@ The steps become simplified:
 2. Appropriate branch for the type of media must be used
 3. Use only open formats whenever possible avoid proprietary formats like Google's webm
 
+## Preferred Formats
 
 ### Image formats
 
@@ -73,10 +77,35 @@ Prefer image formats in the following order:
 
 **For photographic style images** 
 
-1. Png
-2. peg 
+1. PNG
+2. JPG
 
 **For limited color / drawing style images (ex. Logos)** 
 
-1. Svg
-2. Gif
+1. SVG
+2. GIF
+
+### Audio Formats
+
+**For Compressed / Lossy:**
+
+1. MP3
+2. AAC
+
+**For Lossless:**
+
+1. FLAC
+2. ALAC
+3. AIFF or WAV
+
+### Video
+
+1. H264
+2. H265
+
+### Mixed Formats
+
+1. Google Docs
+2. Fuck PDF
+
+

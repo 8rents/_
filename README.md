@@ -9,7 +9,7 @@ Hopefully this isn't breaking GitHub's TOS. If anything, [they've sort of addres
 
 I've created a branch for each type of media.:
 
-- `about` __`[Default]`__
+- `about` __[Default]__
 - `images`
 - `audio`
 - `video`
@@ -21,11 +21,11 @@ The **default branch** is **`about`** and will only host this **`README`** file 
 
 ### Prototype for new branch naming conventions:
 
-- `-` __`[Default]`__ - (was about)
-- `i`  - (was images)
-- `a`  - (was audio)
-- `v`  - (was video)
-- `m`  - (was mixed)
+- `-` __[Default]__ - (was `about`)
+- `i`  - (was `images`)
+- `a`  - (was `audio`)
+- `v`  - (was `video`)
+- `m`  - (was `mixed`)
 
 This will shorten links to:
 

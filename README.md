@@ -5,7 +5,7 @@
 
 Hopefully this isn't breaking GitHub's TOS. If anything, [they've sort of addressed it and left it ambiguous](https://github.community/t/uploading-an-image-to-a-github-repo-to-hotlink-from-a-site/1889). Let's see how this plays out and if the repository gets taken down.
 
-## How I'm going to organize this repository
+## Organizing this repository
 
 I've created a branch for each type of media.:
 
@@ -19,7 +19,7 @@ I've created a branch for each type of media.:
 The **default branch** is **`about`** and will only host this **`README`** file and. This will keep the other branches clear. Each branch will be it's own line and never be merged. Pretty neat huh? `Mixed` will be used for PDFs or any mixed media files.
 
 
-Prototype for new branch naming conventions:
+### Prototype for new branch naming conventions:
 
 - `-` __`[Default]`__ - (was about)
 - `i`  - (was images)

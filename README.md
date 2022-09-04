@@ -21,7 +21,7 @@ The **default branch** is **`about`** and will only host this **`README`** file 
 
 ### Prototype for new branch naming conventions:
 
-- `-` __[Default]__ - (was `about`)
+- `@` __[Default]__ - (was `about`)
 - `i`  - (was `images`)
 - `a`  - (was `audio`)
 - `v`  - (was `video`)

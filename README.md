@@ -15,11 +15,6 @@ I've created a branch for each type of media.:
 - `v` - video
 - `m` - mixed
 
-This will shorten links to:
-
-1. `https://raw.githubusercontent.com/8rents/_/-/`
-2. `https://raw.githubusercontent.com/8rents/_/i/jimi.png`
-
 ## File Name Formatting
 
 All files will be lowercase, numbers or hyphens

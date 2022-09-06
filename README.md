@@ -24,9 +24,9 @@ All files will be lowercase, numbers or hyphens
 Here I'll run through the process of embedding an image on a website.
 
 1. Open the Repository either in the client or on GitHub
-2. Switch to the appropriate branch for the file type you're adding.**`images`** branch (since we're adding an image)
+2. Switch to the appropriate branch for the file type you're adding.**`i` (images)** branch (since we're adding an image)
 3. Add the image to the repo then commit and push it.
-4. Go to the repo on GitHub & switch to the `images` branch
+4. Go to the repo on GitHub & switch to the `i` branch
 5. Click the name of the image & copy the image link
 6. On the target page, insert the link the appropriate way and save the file
 
@@ -40,7 +40,7 @@ Note the above link is:
 https://raw.githubusercontent.com/8rents/_/i/jimi.png
 ```
 
-Which is easy to remember:
+Which is easy to remember!
 
 ```txt
 https://raw.githubusercontent.com/8rents/_/branch/filename

@@ -1,7 +1,7 @@
 
 
 # _
-## ![I got my Jimi Hat on](https://raw.githubusercontent.com/8rents/_/images/jimi.png)  Using Github as a File Host for hotlinking all sorts of shit on the web 
+## ![I got my Jimi Hat on](https://raw.githubusercontent.com/8rents/_/i/jimi.png)  Using Github as a File Host for hotlinking all sorts of shit on the web 
 
 Hopefully this isn't breaking GitHub's TOS. If anything, [they've sort of addressed it and left it ambiguous](https://github.community/t/uploading-an-image-to-a-github-repo-to-hotlink-from-a-site/1889). Let's see how this plays out and if the repository gets taken down.
 
@@ -9,23 +9,11 @@ Hopefully this isn't breaking GitHub's TOS. If anything, [they've sort of addres
 
 I've created a branch for each type of media.:
 
-- `about` __[Default]__
-- `images`
-- `audio`
-- `video`
-- `mixed`
-
-
-The **default branch** is **`about`** and will only host this **`README`** file and. This will keep the other branches clear. Each branch will be it's own line and never be merged. Pretty neat huh? `Mixed` will be used for PDFs or any mixed media files.
-
-
-### Prototype for new branch naming conventions:
-
-- `@` __[Default]__ - (was `about`)
-- `i`  - (was `images`)
-- `a`  - (was `audio`)
-- `v`  - (was `video`)
-- `m`  - (was `mixed`)
+- `@` __`[Default]`__ - about
+- `i` - images
+- `a` - audio
+- `v` - video
+- `m` - mixed
 
 This will shorten links to:
 
@@ -49,12 +37,12 @@ Here I'll run through the process of embedding an image on a website.
 
 __Your image is now hot linked!__
 
-![Jimi Test](https://raw.githubusercontent.com/8rents/_/images/jimi.png)
+![Jimi Test](https://raw.githubusercontent.com/8rents/_/i/jimi.png)
 
 Note the above link is:
 
 ```txt
-https://raw.githubusercontent.com/8rents/_/images/jimi.png
+https://raw.githubusercontent.com/8rents/_/i/jimi.png
 ```
 
 Which is easy to remember:
@@ -68,7 +56,7 @@ All you have to do is memorize: `https://raw.githubusercontent.com/`
 After that add: `Your user name`/`repository name`/`branch`/`file name`
 
 
-like so: `8rents/_/images/jimi.png`
+like so: `https://raw.githubusercontent.com/` `8rents/_/i/jimi.png`
 
 ## Making a snippet
 

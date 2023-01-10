@@ -1,30 +1,25 @@
+# '_'
 
-
-# _
-## ![I got my Jimi Hat on](https://raw.githubusercontent.com/8rents/_/i/jimi.png)  Using Github as a File Host for hotlinking all sorts of shit on the web 
+>  #### *Using GitHub as a File Host for hotlinking all sorts of shit on the web* 
 
 Hopefully this isn't breaking GitHub's TOS. If anything, [they've sort of addressed it and left it ambiguous](https://github.community/t/uploading-an-image-to-a-github-repo-to-hotlink-from-a-site/1889). Let's see how this plays out and if the repository gets taken down.
 
 ## Organizing this repository
 
-I've created a branch for each type of media.:
+Using a separate branch for each type of media:
 
-- `@` __`[Default]`__ - about
+- `@` - about __`[Default]`__ - This branch only contains the `README.md` explaining this repository.
 - `i` - images
 - `a` - audio
 - `v` - video
-- `m` - mixed
-
-## File Name Formatting
-
-All files will be lowercase, numbers or hyphens
+- `d` - documents
 
 ## Example: Hot Linking an Image
 
-Here I'll run through the process of embedding an image on a website.
+Here's the process of embedding an image on a website:
 
-1. Open the Repository either in the client or on GitHub
-2. Switch to the appropriate branch for the file type you're adding.**`i` (images)** branch (since we're adding an image)
+1. Open the Repository either in the GitHub client or on the GitHub website.
+2. Switch to the appropriate branch for the file type you're adding. Since we're adding an image we'll use the **`i`** (images) branch
 3. Add the image to the repo then commit and push it.
 4. Go to the repo on GitHub & switch to the `i` branch
 5. Click the name of the image & copy the image link
@@ -43,7 +38,7 @@ https://raw.githubusercontent.com/8rents/_/i/jimi.png
 Which is easy to remember!
 
 ```txt
-https://raw.githubusercontent.com/8rents/_/branch/filename
+https://raw.githubusercontent.com/[username/repo/branch/filename]
 ```
 
 All you have to do is memorize: `https://raw.githubusercontent.com/`
@@ -63,9 +58,9 @@ You can make a snippet or memorize the URL of the repo:
 
 ## File Guidelines 
 
-1. File names must consist of lowercase letters, numbers & hyphens only
+1. **File names must consist of lowercase letters, numbers & hyphens only**
 2. Appropriate branch for the type of media must be used
-3. Use only open formats whenever possible avoid proprietary formats like Google's webm
+3. Use only open formats whenever possible avoid proprietary formats like Google's webm. Note the exception to these rules is for editing mode formats like PSD or ALS
 
 ## Preferred Formats
 
@@ -94,16 +89,16 @@ Prefer image formats in the following order:
 
 1. FLAC
 2. ALAC
-3. AIFF or WAV
+3. AIFF or WAV (for stems)
 
 ### Video
 
 1. H264
 2. H265
 
-### Mixed Formats
+### Document Formats
 
-1. Google Docs
-2. Fuck PDF
-
+1. PDF
+2. Google Doc
+3. Microsoft Word
 

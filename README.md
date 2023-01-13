@@ -1,6 +1,8 @@
-# '_'
+#  '_' 
 
->  #### *Using GitHub as a File Host for hotlinking all sorts of shit on the web* 
+>  ####  *Using GitHub as a File Host for hotlinking all sorts of shit on the web* 
+
+---
 
 Hopefully this isn't breaking GitHub's TOS. If anything, [they've sort of addressed it and left it ambiguous](https://github.community/t/uploading-an-image-to-a-github-repo-to-hotlink-from-a-site/1889). Let's see how this plays out and if the repository gets taken down.
 
@@ -8,11 +10,10 @@ Hopefully this isn't breaking GitHub's TOS. If anything, [they've sort of addres
 
 Using a separate branch for each type of media:
 
-- `@` - about __`[Default]`__ - This branch only contains the `README.md` explaining this repository.
+- `d` - documents __`[Default]`__
 - `i` - images
 - `a` - audio
 - `v` - video
-- `d` - documents
 
 ## Example: Hot Linking an Image
 
@@ -43,7 +44,7 @@ https://raw.githubusercontent.com/[username/repo/branch/filename]
 
 All you have to do is memorize: `https://raw.githubusercontent.com/`
 
-After that add: `Your user name`/`repository name`/`branch`/`file name`
+After that add: `Your user name`/`repository name`/`branch`/ `folder path (blank if on root)`/`file name`
 
 
 like so: `https://raw.githubusercontent.com/` `8rents/_/i/jimi.png`
@@ -54,7 +55,7 @@ You can make a snippet or memorize the URL of the repo:
 
 1. In the client, switch to the proper branch
 2. Add, commit & push the file
-3. Paste the first part of the URL and edit the branch & image name
+3. Paste the first part of the URL and edit the branch, folder path if there is one & then the image name
 
 ## File Guidelines 
 
@@ -63,6 +64,19 @@ You can make a snippet or memorize the URL of the repo:
 3. Use only open formats whenever possible avoid proprietary formats like Google's webm. Note the exception to these rules is for editing mode formats like PSD or ALS
 
 ## Preferred Formats
+
+### Document formats
+
+Document formats can be in whatever format you need to share. Generally try to prefer:
+
+- Open Formats
+- Easy to mutate
+
+#### Example of format preference 
+
+- Markdown (Good)
+- Microsoft Word (Meh)
+- PDF (Try to Avoid)
 
 ### Image formats
 
@@ -95,10 +109,3 @@ Prefer image formats in the following order:
 
 1. H264
 2. H265
-
-### Document Formats
-
-1. PDF
-2. Google Doc
-3. Microsoft Word
-

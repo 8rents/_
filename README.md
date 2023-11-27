@@ -1,6 +1,6 @@
 # files
 
-> ***Using GitHub as a File Host for hotlinking all sorts of shit on the web***
+> ***Using GitHub as a File Host for hotlinking all sorts of files on the web***
 
 ---
 
@@ -15,7 +15,7 @@ Using a separate branch for each type of media:
 
 ## Example: Hot Linking an Image
 
-Here's the process of embedding an image on a website:
+### Steps to embed an image named `jimi.jpg` on a website:
 
 1. Open the Repository either in the GitHub client or on the GitHub website.
 2. Switch to the appropriate branch for the file type you're adding. Since we're adding an image we'll use the **`i`** (images) branch
@@ -24,11 +24,9 @@ Here's the process of embedding an image on a website:
 5. Click the name of the image & copy the image link
 6. On the target page, insert the link the appropriate way and save the file
 
-__Your image is now hot linked!__
-
 ![Jimi Test](https://raw.githubusercontent.com/8rents/files/i/jimi.jpg)
 
-Note the above link is:
+The Full link is:
 
 ```bash
 https://raw.githubusercontent.com/8rents/files/i/jimi.jpg
@@ -44,8 +42,25 @@ All you have to do is memorize: `https://raw.githubusercontent.com/`
 
 After that add: `Your user name`/`repository name`/`branch`/ `folder path (blank if on root)`/`file name`
 
+So the complete URL for the uploaded image would be: 
 
-Like so: `https://raw.githubusercontent.com/` `8rents/files/i/jimi.jpg`
+```bash
+https://raw.githubusercontent.com/8rents/files/i/jimi.jpg
+```
+
+### To embed this with markdown:
+
+```markdown
+![Jimi](https://raw.githubusercontent.com/8rents/files/i/jimi.jpg)
+```
+
+### Embed with HTML:
+
+```html
+<img src="https://raw.githubusercontent.com/8rents/files/i/jimi.jpg" alt="Jimi">
+```
+
+![Jimi](https://raw.githubusercontent.com/8rents/files/i/jimi.jpg)
 
 ## Making a snippet
 
@@ -100,8 +115,7 @@ Prefer image formats in the following order:
 #### For Lossless
 
 1. FLAC
-2. ALAC
-3. AIFF or WAV (for stems)
+2. AIFF or WAV (for stems)
 
 ### Video
 

@@ -1,10 +1,8 @@
-#  '_' 
+# files
 
->  ####  *Using GitHub as a File Host for hotlinking all sorts of shit on the web* 
+> ***Using GitHub as a File Host for hotlinking all sorts of shit on the web***
 
 ---
-
-Hopefully this isn't breaking GitHub's TOS. If anything, [they've sort of addressed it and left it ambiguous](https://github.community/t/uploading-an-image-to-a-github-repo-to-hotlink-from-a-site/1889). Let's see how this plays out and if the repository gets taken down.
 
 ## Organizing this repository
 
@@ -28,17 +26,17 @@ Here's the process of embedding an image on a website:
 
 __Your image is now hot linked!__
 
-![Jimi Test](https://raw.githubusercontent.com/8rents/_/i/jimi.png)
+![Jimi Test](https://raw.githubusercontent.com/8rents/files/i/jimi.jpg)
 
 Note the above link is:
 
-```txt
-https://raw.githubusercontent.com/8rents/_/i/jimi.png
+```bash
+https://raw.githubusercontent.com/8rents/files/i/jimi.jpg
 ```
 
 Which is easy to remember!
 
-```txt
+```bash
 https://raw.githubusercontent.com/[username/repo/branch/filename]
 ```
 
@@ -47,7 +45,7 @@ All you have to do is memorize: `https://raw.githubusercontent.com/`
 After that add: `Your user name`/`repository name`/`branch`/ `folder path (blank if on root)`/`file name`
 
 
-like so: `https://raw.githubusercontent.com/` `8rents/_/i/jimi.png`
+Like so: `https://raw.githubusercontent.com/` `8rents/files/i/jimi.jpg`
 
 ## Making a snippet
 
@@ -63,43 +61,43 @@ You can make a snippet or memorize the URL of the repo:
 2. Appropriate branch for the type of media must be used
 3. Use only open formats whenever possible avoid proprietary formats like Google's webm. Note the exception to these rules is for editing mode formats like PSD or ALS
 
-## Preferred Formats
+## Preferred File Types
 
-### Document formats
-
-Document formats can be in whatever format you need to share. Generally try to prefer:
+File types can be in whatever type I need to share. I tend to prefer:
 
 - Open Formats
 - Easy to mutate
 
-#### Example of format preference 
+Here is a brief list of my order of preference of file formats:
 
-- Markdown (Good)
-- Microsoft Word (Meh)
-- PDF (Try to Avoid)
+### Documents
 
-### Image formats
+1. Markdown (Good)
+2. Microsoft Word
+3. PDF (Not Good)
+
+### Images
 
 Prefer image formats in the following order:
 
-**For photographic style images** 
+#### Photographic style
 
 1. PNG
 2. JPG
 
-**For limited color / drawing style images (ex. Logos)** 
+#### Limited color / Drawing style images *(For example logos or cartoons)*
 
 1. SVG
 2. GIF
 
-### Audio Formats
+### Audio
 
-**For Compressed / Lossy:**
+#### For Compressed / Lossy
 
 1. MP3
 2. AAC
 
-**For Lossless:**
+#### For Lossless
 
 1. FLAC
 2. ALAC

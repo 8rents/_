@@ -1,4 +1,4 @@
-# files
+# _
 
 > ***Using GitHub as a File Host for hotlinking all sorts of files on the web***
 
@@ -24,12 +24,10 @@ Using a separate branch for each type of media:
 5. Click the name of the image & copy the image link
 6. On the target page, insert the link the appropriate way and save the file
 
-![Jimi Test](https://raw.githubusercontent.com/8rents/files/i/jimi.jpg)
-
 The Full link is:
 
 ```bash
-https://raw.githubusercontent.com/8rents/files/i/jimi.jpg
+https://raw.githubusercontent.com/8rents/_/i/jimi.jpg
 ```
 
 Which is easy to remember!
@@ -45,22 +43,22 @@ After that add: `Your user name`/`repository name`/`branch`/ `folder path (blank
 So the complete URL for the uploaded image would be: 
 
 ```bash
-https://raw.githubusercontent.com/8rents/files/i/jimi.jpg
+https://raw.githubusercontent.com/8rents/_/i/jimi.jpg
 ```
 
 ### To embed this with markdown:
 
 ```markdown
-![Jimi](https://raw.githubusercontent.com/8rents/files/i/jimi.jpg)
+![Jimi](https://raw.githubusercontent.com/8rents/_/i/jimi.jpg)
 ```
 
 ### Embed with HTML:
 
 ```html
-<img src="https://raw.githubusercontent.com/8rents/files/i/jimi.jpg" alt="Jimi">
+<img src="https://raw.githubusercontent.com/8rents/_/i/jimi.jpg" alt="Jimi">
 ```
 
-![Jimi](https://raw.githubusercontent.com/8rents/files/i/jimi.jpg)
+![Jimi](https://raw.githubusercontent.com/8rents/_/i/jimi.jpg)
 
 ## Making a snippet
 
@@ -74,7 +72,7 @@ You can make a snippet or memorize the URL of the repo:
 
 1. **File names must consist of lowercase letters, numbers & hyphens only**
 2. Appropriate branch for the type of media must be used
-3. Use only open formats whenever possible avoid proprietary formats like Google's webm. Note the exception to these rules is for editing mode formats like PSD or ALS
+3. Use only open formats whenever possible avoid proprietary formats like Google's webm. Note the exception to these rules is for editing mode formats like PSD (Photoshop) or ALS (Ableton Live)
 
 ## Preferred File Types
 

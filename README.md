@@ -1,4 +1,4 @@
-# **_** (Files Share) *`i`mages branch*
+# **_** (Files Share) -  *`i`mages branch*
 
 > ***This is the image branch of the _ (File Share) repository. Only upload images plz...***
 
@@ -6,9 +6,14 @@
 
 ## Folders 
 
-- Wallpapers
-- Projects
-- Icons
+- **Wallpapers** - Images to be used as Laptop or desktop wallpapers
+- **Pictures** - My library of pictures to be shared
+- **Screenshots** - Screenshots I've taken or downloaded
+- **Projects** - Image / Picture projects that I have to share
+- **Logos** - Logos / Icons (Holds other folders)
+  - **h1** - 64px height logos to be linked from READMEs
+  - **linux** - Linux logos
+  - **ico** - 256px ico format
 
 ## How to: Hot Link an Image
 

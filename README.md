@@ -4,6 +4,10 @@
 
 ---
 
+==**Deprecated**== *The `_` GitHub file hosting library has been deprecated in favor of using a repositories for each media type instead of one big repository with different media types on different branches*
+
+---
+
 ## Organizing this repository
 
 Using a separate branch for each type of media:
@@ -13,12 +17,14 @@ Using a separate branch for each type of media:
 - `a` - audio
 - `v` - video
 
+---
+
 ## Example: Hot Linking an Image
 
-### Steps to embed an image named `jimi.jpg` on a website:
+Steps to embed an image named `jimi.png` on a website:
 
 1. Open the Repository either in the GitHub client or on the GitHub website.
-2. Switch to the appropriate branch for the file type you're adding. Since we're adding an image we'll use the **`i`** (images) branch
+2. Switch to the appropriate branch for the file type you're adding. Since we're adding an image we'll use the `i` (images) branch
 3. Add the image to the repo then commit and push it.
 4. Go to the repo on GitHub & switch to the `i` branch
 5. Click the name of the image & copy the image link
@@ -27,7 +33,7 @@ Using a separate branch for each type of media:
 The Full link is:
 
 ```bash
-https://raw.githubusercontent.com/8rents/_/i/jimi.jpg
+https://raw.githubusercontent.com/8rents/_/i/jimi.png
 ```
 
 Which is easy to remember!
@@ -43,22 +49,24 @@ After that add: `Your user name`/`repository name`/`branch`/ `folder path (blank
 So the complete URL for the uploaded image would be: 
 
 ```bash
-https://raw.githubusercontent.com/8rents/_/i/jimi.jpg
+https://raw.githubusercontent.com/8rents/_/i/jimi.png
 ```
 
 ### To embed this with markdown:
 
 ```markdown
-![Jimi](https://raw.githubusercontent.com/8rents/_/i/jimi.jpg)
+![Jimi](https://raw.githubusercontent.com/8rents/_/i/jimi.png)
 ```
 
 ### Embed with HTML:
 
 ```html
-<img src="https://raw.githubusercontent.com/8rents/_/i/jimi.jpg" alt="Jimi">
+<img src="https://raw.githubusercontent.com/8rents/_/i/jimi.png" alt="Jimi">
 ```
 
-![Jimi](https://raw.githubusercontent.com/8rents/_/i/jimi.jpg)
+![Jimi](https://raw.githubusercontent.com/8rents/_/i/jimi.png)
+
+---
 
 ## Making a snippet
 
@@ -68,11 +76,15 @@ You can make a snippet or memorize the URL of the repo:
 2. Add, commit & push the file
 3. Paste the first part of the URL and edit the branch, folder path if there is one & then the image name
 
+---
+
 ## File Guidelines 
 
-1. **File names must consist of lowercase letters, numbers & hyphens only**
+1. File names must consist of lowercase letters, numbers & hyphens only
 2. Appropriate branch for the type of media must be used
 3. Use only open formats whenever possible avoid proprietary formats like Google's webm. Note the exception to these rules is for editing mode formats like PSD (Photoshop) or ALS (Ableton Live)
+
+---
 
 ## Preferred File Types
 

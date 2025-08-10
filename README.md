@@ -1,4 +1,6 @@
-# _ (GitHub File Hosting Repository)
+`Documents Branch`
+
+# `_` | *GitHub File Host*
 
 > *Using GitHub as a File Host for hotlinking all sorts of files on the web*
 

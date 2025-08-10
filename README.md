@@ -1,25 +1,29 @@
-# _
+# _ (GitHub File Hosting Repository)
 
-> ***Using GitHub as a File Host for hotlinking all sorts of files on the web***
-
----
-
-==**Deprecated**== *The `_` GitHub file hosting library has been deprecated in favor of using a repositories for each media type instead of one big repository with different media types on different branches*
+> *Using GitHub as a File Host for hotlinking all sorts of files on the web*
 
 ---
 
-## Organizing this repository
+## In this README
 
-Using a separate branch for each type of media:
+- [Media Type Branching](#media-type-branching)
+- [How To Hot Link an Image](#how-to-hot-link-an-image)
+- [Making a Snippet](#making-a-snippet)
+- [File Guidelines](#file-guidelines)
+- [Preferred File Types](#preferred-file-types)
 
-- `d` - documents __`[Default]`__
-- `i` - images
-- `a` - audio
-- `v` - video
+## Media Type Branching
+
+Using a separate branch for different media types. Each branch is named with the first letter of that media type.
+
+- **[`d`](https://github.com/8rents/_/tree/d)ocs** **[`|Default Branch|`](#)** - `txt`, `md`, `pdf`, `doc`, etc...
+- **[`i`](https://github.com/8rents/_/tree/i)mages** - `svg`, `png`, `jpg`, `gif`, etc...
+- **[`a`](https://github.com/8rents/_/tree/a)udio** - `mp3`, `m4a`, `aiff`, etc...
+- **[`v`](https://github.com/8rents/_/tree/v)ideo** - `x264`, `x265`, `mp4`, etc...
 
 ---
 
-## Example: Hot Linking an Image
+## How To Hot Link an Image
 
 Steps to embed an image named `jimi.png` on a website:
 
@@ -131,3 +135,7 @@ Prefer image formats in the following order:
 
 1. H264
 2. H265
+
+---
+
+**(<3) 2025 [Brenton Holiday](https://github.com/8rents?tab=repositories)**

@@ -57,22 +57,34 @@ Image was taken from the Joy McKenzie site, chrome developer tools was used to f
 - **Web Page:** https://joy-mckenzie.pixels.com/featured/pop-art-jimi-hendrix-joy-mckenzie.html
 - **Actual Image:** https://i.pinimg.com/736x/53/d9/ef/53d9ef30c5ec0e9109f733c68f9cecb0.jpg @350x400pxX
 
-
 ### Image Lineage
 
-- **[original/350x400.jpg](original/350x400.jpg)** 
-  **[Source]** | *Downloaded from: <https://i.pinimg.com/736x/53/d9/ef/53d9ef30c5ec0e9109f733c68f9cecb0.jpg>*
+#### Branch: `Source / Upscale / 4 color`
+
+- **<img src="src/350x400.jpg" alt="src/350x400.jpg" style="zoom:25%;" />** 
+  [src/350x400.jpg](src/350x400.jpg)
   
-  - **[original/2800x3200.png](original/2800x3200.png)** 
-    *Upscaled [original/350x400.jpg](original/350x400.jpg) to 2800 x 3200 pixels using AI at [Upscale Media](https://upscale.media) and converted working file type to png*
+  >  **[Source]** | *Downloaded from: <https://i.pinimg.com/736x/53/d9/ef/53d9ef30c5ec0e9109f733c68f9cecb0.jpg>*
+  
+  - **<img src="src/2800x3200.png" alt="src/2800x3200.png" style="zoom:3%;" />** 
     
-    - **[original/2800-4color-separation.png](original/2800-4color-separation.png)** 
-      *Reduced colors in [original/2800x3200.png](original/2800x3200.png) from 20 to 4 using [Photopea](https://photopea.com) and cropped image to a square at 2800px*
+    [src/2800x3200.png](src/2800x3200.png)
+    
+    > *Upscaled [src/350x400.jpg](src/350x400.jpg) to 2800 x 3200 pixels using AI at  [Upscale Media](https://upscale.media) and converted working file type to png*
+    
+    - **<img src="4color/2800.png" alt="4color/2800.png" style="zoom:3%;" />** 
       
-      - **[trans/2800.png](trans/2800.png)** 
-        *Removed light blue background reducing image to 3 colors in the [Transparent PSD File](trans/trans.psd). *
+      [4color/2800.png](4color/2800.png)
       
-        > *Note: need to crop image smaller than 2800 and get rid of excess white space.* 
+      > *Reduced colors in [src/2800x3200.png](original/2800x3200.png) from 20  to 4 using [Photopea](https://photopea.com) and cropped image to a square at 2800px*
+      
+      - **<img src="trans/2800.png" alt="trans/2800.png" style="zoom:3%;" />** 
+      
+        [trans/2800.png](trans/2800.png)
+      
+        > *Removed light blue background reducing image to 3 colors in the [ Transparent PSD File](trans/trans.psd). *
+        >
+        > ***Note:** need to crop image smaller than 2800 and get rid of excess white space.* 
 
 ### Future Adjustments
 

@@ -1,13 +1,38 @@
-# jimi.jpg
+# `jimi` | *Jimi Hendrix Icon*
 
-> *4 color jimi hendrix pop art*
-
-**Source:** https://i.pinimg.com/736x/53/d9/ef/53d9ef30c5ec0e9109f733c68f9cecb0.jpg
+> *4 color Jimi Hendrix pop art icon for 8rents accounts*
 
 ---
 
-## Original Source 
+## Directory Structure
 
+
+
+### Image paths
+
+This image uses the format 
+
+*jimi/`image edit type`/`size`.png*
+
+**circle icon @ 288px**
+
+```
+jimi/circle/288.png
+```
+
+**head only icon @ 1152px**
+
+```
+jimi/head/1152.png
+```
+
+**transparent background icon @ 512px**
+
+```
+jimi/trans/512.png
+```
+
+---
 
 ## Source Image Origin
 

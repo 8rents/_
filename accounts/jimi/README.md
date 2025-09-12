@@ -48,17 +48,17 @@ jimi/trans/512.png
 
 ## History
 
-### Source Image Origin
+### Source Origin
 
-Image was taken from the joy mckenzie site, chrome developer tools was used to find the hidden jpg file in the pages source code. 
+Image was taken from the Joy McKenzie site, chrome developer tools was used to find the hidden jpg file in the pages source code. 
 
-Thank you Joy!
+*Thank you Joy!*
 
 - **Web Page:** https://joy-mckenzie.pixels.com/featured/pop-art-jimi-hendrix-joy-mckenzie.html
 - **Actual Image:** https://i.pinimg.com/736x/53/d9/ef/53d9ef30c5ec0e9109f733c68f9cecb0.jpg @350x400pxX
 
 
-### History
+### Image Lineage
 
 - **[original/350x400.jpg](original/350x400.jpg)** 
   **[Source]** | *Downloaded from: <https://i.pinimg.com/736x/53/d9/ef/53d9ef30c5ec0e9109f733c68f9cecb0.jpg>*

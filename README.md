@@ -28,12 +28,22 @@ Using a separate branch for different media types. Each branch is named with the
 - **[`a`](https://github.com/8rents/_/tree/a)udio** - `mp3`, `m4a`, `aiff`, etc...
 - **[`v`](https://github.com/8rents/_/tree/v)ideo** - `x264`, `x265`, `mp4`, etc...
 
+## Restructuring Image folders
+
+- Pictures remains the same
+- Wallpapers by landscape or portrait, then by resolution.
+  wallpapers/portrait/1900x900/folder name
+- screenshot by landscape or portrait
+- logos, icons, h1 all get combined into one directory (logos)
+   - logos/Debian/{32,64,128,256,512,1024,2048}{blank,light,dark}.png
+      > Number corresponds to height in pixels.
+      > light/dark corresponds to the type of background it will be placed on.
+- accounts/
 ## Image Folders 
 
 - **Wallpapers** - Images to be used as Laptop or desktop wallpapers
 - **Pictures** - My library of pictures to be shared
 - **Screenshots** - Screenshots I've taken or downloaded
-- **Projects** - Image / Picture projects that I have to share
 - **Logos** - Logos / Icons (Holds other folders)
   - **h1** - 64px height logos to be linked from READMEs
   - **linux** - Linux logos
